@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/amiga9500/public_html/bibhakar/
+    - cp -avr * $DEPLOYPATH
+    - cp index.html $DEPLOYPATH
